@@ -46,7 +46,11 @@ export default function Categories() {
           <View key={index} style={{alignItems: 'center', marginRight: 30}}>
             <Image
               source={item.image}
-              style={{width: 50, height: 40, resizeMode: 'contain'}}
+              style={{
+                width: 50,
+                height: 40,
+                resizeMode: 'contain',
+              }}
             />
             <Text style={{fontSize: 13, fontWeight: '900'}}>{item.text}</Text>
           </View>
